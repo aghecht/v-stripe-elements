@@ -7,7 +7,7 @@
  */
 
 const path = require('path')
-const merge = require('webpack-merge') // merge multiple webpack configs
+const { merge } = require('webpack-merge') // merge multiple webpack configs
 const HappyPack = require('happypack') // speeds up build by doing transforms in parallel
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin') // parallel thread type-checker
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
